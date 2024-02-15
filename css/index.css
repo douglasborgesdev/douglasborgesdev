@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    height: 84px;
+    background-image: linear-gradient(#175F49, #ffffff);
+    
+}
+
+nav ul li a {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 10px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #175F49;
+    height: 28px;    
+}
+
+nav ul li a:hover {
+    color: #175F49 !important;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content:space-between;
+    height: 834px;
+    margin: auto;
+}
+
+
+.flexItemPrimary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 473px;
+}
+
+.flexItemPrimary img {
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.flexItemPrimary .title {
+    color: #898989;
+    align-self: center;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+
+.flexItemPrimary .primaryName {
+    color: #898989;
+    font-size: 96px;
+    margin-left: 34px;
+}
+
+.flexItemPrimary .lastName {
+    color: #898989;
+    font-size: 96px;
+    align-self: flex-end;
+    margin-right: 34px;
+    margin-top: -25px;
+}
+
+.flexItemPrimary .resumeAbout {
+    color: #898989;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+.flexItemSecundary {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flexItemSecundary:nth-child(1) {
+    justify-content: right;
+    margin-left: 56px;
+}
+
+.symbols {
+    font-size: 100px;
+    color: #dfdfdf;
+}
+
+
+.flag {
+    display: flex;
+}
+
+.flag img {
+    align-self: flex-end;
+    width: 36px;
+    height: 28px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
